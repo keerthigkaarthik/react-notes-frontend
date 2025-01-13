@@ -13,7 +13,7 @@ export default defineConfig({
     port: process.env.PORT || 3000, // Use Railway's PORT or default to 3000
     proxy: {
       '/api': {
-        target: 'https://django-react-notes-app-production-0e6b.up.railway.app/',
+        target: 'https://web-production-1eb76.up.railway.app',
         changeOrigin: true,
       }
     }
